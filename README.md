@@ -1,8 +1,10 @@
 # The Yummi Pizza - Backend
 
 Demo version: 
-A shopping cart developed using Laravel 5.4
-<p align="center"><img src="https://github.com/henrymbuguak/Laravel-5.4-Shopping-Cart/blob/master/public/Screenshot.png"></p>
+
+
+![Screenshot_1](https://user-images.githubusercontent.com/58940678/94165205-4385b700-fe8a-11ea-9251-770fce1f892c.jpg)
+
 
 ### How to set up the project
 
