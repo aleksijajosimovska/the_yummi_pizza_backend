@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-  Laravel 5.4 Shopping Cart
+  The Yummi Pizza
 @endsection
 
 @section('content')
@@ -14,10 +14,10 @@
     </div>
   </div>
   @endif
-  @foreach($products->chunk(3) as $productChunk)
+  @foreach($products->chunk(4) as $productChunk)
     <div class="row">
       @foreach($productChunk as $product)
-        <div class="col-sm-4 col-md-4">
+        <div class="col-sm-12 col-md-3">
           <div class="thumbnail">
             <img src="{!!  URL::to('images/uploads',array($product->imagePath)) !!}  " alt="Product" class="img-responsive">
             <div class="caption">
